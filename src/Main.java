@@ -8,10 +8,10 @@ public class Main
                 new InputStreamReader(System.in));
         try
         {
+            System.out.print("Ingrese la cantidad de dias: ");
+            int dias = Integer.parseInt(br.readLine());
             System.out.print("Ingrese la cantidad de episodios: ");
             int episodios = Integer.parseInt(br.readLine());
-            System.out.print("Ingrese la cantidad de días: ");
-            int dias = Integer.parseInt(br.readLine());
             int resultado = episodios / dias;
             System.out.println("Episodios por día: " + resultado);
         }
